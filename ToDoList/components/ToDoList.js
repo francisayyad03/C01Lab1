@@ -30,11 +30,10 @@ const ToDoList = ({ initialTasks }) => {
 };
 
 ToDoList.defaultProps = {
-    initialTasks: ["a"],
+    initialTasks: [],
 };
 
 
-// Styles
 const styles = StyleSheet.create({
     todoListContainer: {
       margin: 10,
